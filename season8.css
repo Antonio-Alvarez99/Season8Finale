@@ -1,0 +1,149 @@
+body {
+background-color: #F5F5F5;
+}
+
+h1 {
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+text-align: center;
+font-size: 45px;
+padding-top: 80px;
+}
+
+.formEdit {
+
+  display: none;
+
+}
+
+
+img {
+width: 45px;
+height: 45px;
+margin-top: 35px;
+}
+
+
+#displayFlex {
+margin: 45px;
+display: flex;
+justify-content: space-between;
+}
+
+
+input {
+font-family: 'Raleway', sans-serif;
+}
+
+#comment {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+#userName {
+    font-family: 'Raleway', sans-serif;  
+    font-weight: lighter;
+    text-align: start;
+    font-size: large;
+}
+
+button {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.darkMode {
+    background-color:black;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+  }
+
+  .darkMode #header {
+
+    background-color: #585858;
+color: white;
+
+  }
+
+
+  .darkMode #commentSection {
+
+background-color: #404040;
+color: white;
+    
+  }
+
+  .darkMode .RAD {
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+
+  }
+
+.furst {
+
+    font-family: 'Raleway', sans-serif;  
+    margin: 40px;
+    padding: 8px;
+    font-size: large;
+
+}
+
+
+#inputForm {
+
+justify-content: end;
+margin-left: 99px;
+position: fixed;
+bottom: 0px;
+width: 100%;
+
+
+}
+
+#comment {
+
+width: 500px;
+
+}
+
+.editDelete {
+
+    margin: 40px;
+}
+
+.RAD {
+
+    display: flex;
+    justify-content: space-between;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #F5F5F5;
+
+}
+
+#button:hover {
+    cursor: pointer;
+  }
+
+#commentSection {
+    margin-top: 300px;
+    margin-left: 100px;
+    background-color: #D3D3D3;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header {
+background-color: white;
+padding: 10px;
+position: fixed;
+top: 0px;
+width: 100%;
+}
+
+
+
+
